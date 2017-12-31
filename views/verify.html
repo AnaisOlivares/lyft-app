@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="../css/main.css">
-  <title>Sign Up</title>
+  <title>Verify</title>
 </head>
 
 <body>
@@ -17,25 +17,21 @@
     <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
     </a>
   </header>
-  <div class="container center-align">
-    <h1>verify your number</h1>
-    <h4>Join now for free ride credit</h4>
+  <div class="container">
 
     <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="icon_telephone" type="number" class="validate">
-            <label for="icon_telephone">Telephone</label>
-          </div>
-        </div>
-      </form>
+      <h3 class="col s12 center-align">Verify phone number</h3>
+      <h5 class="col s12 center-align">Join now for free ride credit</h5>
+      <!-- ingreso el código -->
+      <div class="input-field center-align">
+        <p class="col s2 offset-s4 center-align">LAB - </p>
+        <input id="verify-code" maxlength="3" type="text" class="validate col s2 offset-s0">
+      </div>
+      <p class="center-align col s12">Enter the code sent to: +52</p>
+      <br>
+      <button type="submit" id="resend" class="col s6 offset-s3 btn btn-success"> <a href="verify.html">resend code</a> </button>
     </div>
 
-    <p class="center-align">Enter the code sent to: +52</p>
-    <br>
-    <button type="submit" id="signup" class="btn btn-success center-align  disabled"> <a href="verify.html">Next</a> </button>
-    </form>
   </div>
 
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
