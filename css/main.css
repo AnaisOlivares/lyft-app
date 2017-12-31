@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0px,
+	box-sizing:border-box;
+}
+
+.vh100 {
+  height: 100vh;
+	background: linear-gradient(to bottom right, #570061, #e10a89);
+
+}
+
+.bg {
+	background-image: url(../assets/images/car.gif);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.btn-position {
+	transform: translateY(400%);
+}
+
+.img-first {
+	width: 40%;
+}
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  height: 100vh;
+}
+
+.white {
+	border: 1px solid white;
+}
